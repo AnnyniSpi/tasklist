@@ -2,17 +2,20 @@ package com.annyni.tasklist.service.impl;
 
 import com.annyni.tasklist.domain.user.User;
 import com.annyni.tasklist.service.UserService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 @Service
+@RequiredArgsConstructor
 public class UserServiceImpl implements UserService {
+
     @Override
-    public User getUser(int id) {
+    public User getById(Long id) {
         return null;
     }
 
     @Override
-    public User getUserByEmail(String username) {
+    public User getUserByUsername(String username) {
         return null;
     }
 

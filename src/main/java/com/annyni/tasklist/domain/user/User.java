@@ -1,9 +1,8 @@
 package com.annyni.tasklist.domain.user;
 
 import lombok.Data;
-
 import com.annyni.tasklist.domain.task.Task;
-import javax.management.relation.Role;
+
 import java.util.List;
 import java.util.Set;
 
